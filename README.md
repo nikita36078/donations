@@ -34,9 +34,6 @@ It is used in projects, such as OpenKeychain, AdAway, FasterGPS, and NTPSync.
 |------------------------|------------------------|
 | ![Screenshot](https://github.com/sufficientlysecure/donations/raw/master/screenshot-google.png) | ![Screenshot](https://github.com/sufficientlysecure/donations/raw/master/screenshot-fdroid.png) |
 
-## Translations
-
-Help translating on [Transifex](https://www.transifex.com/privacyapps/donations/dashboard/).
 
 ## Build Example App with Gradle
 
