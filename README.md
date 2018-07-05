@@ -11,11 +11,11 @@ It is used in projects, such as OpenKeychain, AdAway, FasterGPS, and NTPSync.
 1. Add dependency to your build.gradle:
     ```
     repositories {
-        jcenter()
+        maven { url 'https://jitpack.io' }
     }
 
     dependencies {
-        compile 'org.sufficientlysecure:donations:2.6'
+        implementation 'com.github.nikita36078:donations:2.7'
     }
     ```
 2. Instantiate the fragment where you want to use it. Check out the example app for this: [DonationsActivity.java](https://github.com/sufficientlysecure/donations/blob/master/example/src/main/java/org/sufficientlysecure/donations/example/DonationsActivity.java)
@@ -41,8 +41,6 @@ It is used in projects, such as OpenKeychain, AdAway, FasterGPS, and NTPSync.
 2. Export ANDROID_HOME pointing to your Android SDK
 3. Download Android Support Repository, and Google Repository using Android SDK Manager
 4. Execute ``./gradlew build``
-
-## Add the lib to your project
 
 ## Changelog
 ### 2.6
