@@ -3,7 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.nikita36078'
 
 dependencies {
-    compile 'com.android.support:support-v4:27.1.1'
+    compile 'androidx.legacy:legacy-support-v4:1.0.0'
 }
 
 android {
