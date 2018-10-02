@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 dependencies {
-    compile 'androidx.legacy:legacy-support-v4:1.0.0'
-    compile project(':Donations')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation project(':Donations')
 }
 
 android {
