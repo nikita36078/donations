@@ -15,7 +15,7 @@ It is used in projects, such as OpenKeychain, AdAway, FasterGPS, and NTPSync.
     }
 
     dependencies {
-        implementation 'com.github.nikita36078:donations:2.7'
+        implementation 'com.github.nikita36078:donations:2.8'
     }
     ```
 2. Instantiate the fragment where you want to use it. Check out the example app for this: [DonationsActivity.java](https://github.com/sufficientlysecure/donations/blob/master/example/src/main/java/org/sufficientlysecure/donations/example/DonationsActivity.java)
